@@ -27,6 +27,13 @@
     <div class="container">
       <input class="input" type="text" id="name" placeholder=" Enter fullname" required/> <br />
       <input class="input" type="email" id="email" placeholder="Enter your email address" required/> <br />
+      <select name="gender" id="gender" class="input" required>
+        <option value="" disabled selected hidden>Select gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+      <input class="input" type="text" id="country" placeholder=" Enter country" required/> <br />
+      <input class="input" type="text" id="state" placeholder=" State/province" required/> <br />
       <input class="input" type="text" id="username" placeholder="Choose a Username" required/> <br />
       <input class="input" type="password" name="password" id="password" placeholder="Choose a Password" required /><br />
       <input class="input" type="password" name="password" id="password" placeholder="Confirm Password" required />
@@ -35,7 +42,7 @@
       <div class="rm">
         <div>
       
-        <label for="remember-me">  <input class="check-box" type="checkbox" name="remember-me" id="remember-me" /> I have read and agreed to the <a class="forgotten-password" href="#">Terms and conditions</a></label> 
+        <label for="remember-me">  <input class="check-box" type="checkbox" name="remember-me" id="remember-me" required/> I have read and agreed to the <a class="forgotten-password" href="#">Terms and conditions</a></label> 
         </div> <br />
       
         
